@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    background-color: #07004D;
+}
+
+.main-container{
+    background-color: #F3DFBF;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 55vh;
+    width:50vh;
+    margin-top:40px;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #07004D;
+    text-shadow: 2px 2px 4px rgba(114, 2, 2, 0.744);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.amount{
+    margin: 1rem 0 1rem 0 ;
+    
+}
+
+form{
+    margin: 2rem 0 2rem 0;
+
+}
+
+form select, 
+button,
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    background-color: transparent;
+}
+
+form input{
+    border-radius: 1px;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding-left: 6px;
+    height: 2.5rem;
+    margin-top: 10px;
+    
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    margin-top: 1rem;
+      
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-contain img{
+    max-width: 1.5rem;
+    
+    
+}
+
+.select-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0.5rem 0 0.5rem 0;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.75rem;
+    border: 1px solid gray;
+    padding: 0px 7px;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.msg{
+    margin: 1rem 0 2rem 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+
+}
+
+form button{
+    font-size: 1.1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 2.5rem;
+    background-color:#2D82B7;
+    color: #fff;
+    cursor: pointer;
+    
+}
